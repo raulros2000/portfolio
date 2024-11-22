@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        #trabajos {
+            background-color: #f4f4f4;
+        }
+
+        #proyectos {
+            background-color: #eaeaea;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <p>Explora mis trabajos y proyectos destacados</p>
+    </header>
+
+    <nav>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#proyectos">Proyectos</a>
+    </nav>
+
+    <section id="trabajos">
+        <h2>Trabajos</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Trabajo 1</h3>
+                <p>Descripción breve del trabajo 1.</p>
+            </div>
+            <div class="card">
+                <h3>Trabajo 2</h3>
+                <p>Descripción breve del trabajo 2.</p>
+            </div>
+            <div class="card">
+                <h3>Trabajo 3</h3>
+                <p>Descripción breve del trabajo 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Proyecto LEGO</h3>
+                <p>Proyecto realizado en el entorno eductivo.</p>
+            </div>
+            <div class="card">
+                <h3>Proyecto B</h3>
+                <p>Descripción breve del proyecto B.</p>
+            </div>
+            <div class="card">
+                <h3>Proyecto C</h3>
+                <p>Descripción breve del proyecto C.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
